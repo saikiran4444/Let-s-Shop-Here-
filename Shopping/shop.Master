@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="shop.master.cs" Inherits="Shopping.shop" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div>
+            <h1 style="text-align:center;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size:40px;color:red;background-color:aqua">Let's shop here!!</h1>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div>
+            <h2 style="text-align:center">
+                Capgemini 2017 &copy All Rights Reserved.
+            </h2>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
